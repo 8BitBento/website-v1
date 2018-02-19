@@ -2,8 +2,15 @@
 main {
   display: flex;
   flex-direction: column;
-  width: 65%;
+}
+
+section#about, section#services, section#contact, footer {
+  width: 43%;
   margin: 0 auto;
+}
+
+h1, small {
+  text-align: center;
 }
 
 /* Form Styling */
@@ -14,12 +21,39 @@ input, button, small {
 /* NavBar */
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-top: 2vh;
+  width: 65%;
+  margin: 2vh auto 0 auto;
 }
 
 span#logo {
   font-size: 2vw;
+}
+
+/* Header */
+header {
+  align-self: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header button {
+  margin-left: 70%;
+}
+
+/* Contact Form */
+section#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#contact button {
+  margin-left: 70%;
 }
 
 /* Footer */
