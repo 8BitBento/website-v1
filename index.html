@@ -6,77 +6,91 @@
 
     <title>8Bit Bento</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <main>
-      <nav>
-        <span id="logo">8BitBento</span>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <!-- <a href="#portfolio">Portfolio</a> -->
-        <a href="#contact">Contact</a>
-      </nav>
-      <header>
-        <h1>We design and develop websites.</h1>
-        <button>Get a Quote</button>
-      </header>
+      <div class="nav-header">
+        <nav>
+          <span id="logo">8BitBento</span>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <!-- <a href="#portfolio">Portfolio</a> -->
+          <a href="#contact">Contact</a>
+        </nav>
+        <header>
+          <div class="container">
+            <h1>We design and develop websites.</h1>
+            <button>Get a Quote</button>
+          </div>
+        </header>
+      </div>
       <section id="about">
-        <h1>About Us</h1>
-        <p>With over 11 years of combined web development experience, we bring to the table a streamlined web development process tailored to your needs.</p>
-        <p>Just like a bento box, our websites use a variety of quality 'ingredients' organized in a beautiful and consumable format.</p>
+        <div class="container">
+          <h1>About Us</h1>
+          <p>With over 11 years of combined web development experience, we bring to the table a streamlined web development process tailored to your needs.</p>
+          <p>Just like a bento box, our websites use a variety of quality 'ingredients' organized in a beautiful and consumable format.</p>
+        </div>
       </section>
       <section id="services">
-        <h1>Services</h1>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>CSS</td>
-            <td>JavaScript</td>
-          </tr>
-          <tr>
-            <td>SilverStripe</td>
-            <td>WordPress</td>
-            <td>Drupal</td>
-          </tr>
-          <tr>
-            <td>PHP</td>
-            <td>Ruby</td>
-            <td>Rails</td>
-          </tr>
-        </table>
+        <div class="container">
+          <h1>Services</h1>
+          <table>
+            <tr>
+              <td>HTML</td>
+              <td>CSS</td>
+              <td>JavaScript</td>
+            </tr>
+            <tr>
+              <td>SilverStripe</td>
+              <td>WordPress</td>
+              <td>Drupal</td>
+            </tr>
+            <tr>
+              <td>PHP</td>
+              <td>Ruby</td>
+              <td>Rails</td>
+            </tr>
+          </table>
+        </div>
       </section>
       <!-- Portfolio Section would go here. -->
       <section id="contact">
-        <h1>Get a Quote</h1>
-        <form>
-          <input type="text" placeholder="Name">
-          <input type="text" placeholder="Email">
-          <textarea rows="10" cols="40" placeholder="Write your message here."></textarea>
-          <button>Send</button>
-        </form>
+        <div class="container">
+          <h1>Get a Quote</h1>
+          <form>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea rows="10" cols="30" placeholder="Write your message here."></textarea>
+            <button>Send</button>
+          </form>
+        </div>
       </section>
       <footer>
+        <div class="container">
         <section>
+            <div>
+              <h1>8BitBento</h1>
+              <small>500 Westover Dr #12388</small>
+              <small>Sanford, NC 27330</small>
+            </div>
+            <div>
+              <h1>Phone</h1>
+              <small>(xxx) xxx-xxxx</small>
+            </div>
+            <div>
+              <h1>Email</h1>
+              <small>8bitbento@gmail.com</small>
+            </div>
+          </section>
+          <!-- We can include our social media links here when we flesh out social media. -->
           <div>
-            <h1>8BitBento</h1>
-            <small>500 Westover Dr #12388</small>
-            <small>Sanford, NC 27330</small>
+            <br>
+            <small>&copy; 2018 8BitBento</small>
           </div>
-          <div>
-            <h1>Phone</h1>
-            <small>(xxx) xxx-xxxx</small>
-          </div>
-          <div>
-            <h1>Email</h1>
-            <small>8bitbento@gmail.com</small>
-          </div>
-        </section>
-        <!-- We can include our social media links here when we flesh out social media. -->
-        <div>
-          <br>
-          <small>&copy; 2018 8BitBento</small>
         </div>
       </footer>
     </main>
