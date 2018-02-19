@@ -1,0 +1,28 @@
+/* Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+}
+
+/* Form Styling */
+input, button, small {
+  display: block;
+}
+
+/* NavBar */
+nav {
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+span#logo {
+  font-size: 2vw;
+}
+
+/* Footer */
+footer h1 {
+  font-size: 1em;
+}
