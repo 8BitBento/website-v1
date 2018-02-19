@@ -15,20 +15,53 @@ nav {
 
 nav a {
   display: none;
+  color: white;
+  text-decoration: none;
 }
 
 span#logo {
   padding-left: 5vw;
+  color: white;
+  font-weight: 900;
 }
 
 svg.fa-bars {
   padding-right: 5vw;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin: 0 auto;
+  padding-top: 25vh;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  color: white;
+}
+
+header button {
+  align-self: flex-end;
+  margin-right: 5vw;
+}
+
+/* Background Image for Nav/Header */
+div.nav-header {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/background.jpeg) no-repeat center center/cover;
 }
 
 @media only screen and (min-width: 768px) {
   /* NavBar */
   nav {
     justify-content: space-around;
+    font-size: 1.4em;
   }
 
   nav a {
@@ -45,5 +78,50 @@ svg.fa-bars {
 
   svg.fa-bars {
     display: none;
+  }
+
+  /* Header */
+  header {
+    width: 65vw;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  header button {
+    padding: 10px 4vw 10px 4vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* NavBar */
+  nav {
+    font-size: 1.6em;
+  }
+
+  /* Header */
+  header h1 {
+    font-size: 4em;
+  }
+
+  header button {
+    padding: 20px 6vw 20px 6vw;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  /* NavBar */
+  nav {
+    font-size: 2em;
+  }
+
+  /* Header */
+  header {
+    width: 45vw;
+  }
+
+  header h1 {
+    font-size: 5em;
   }
 }
