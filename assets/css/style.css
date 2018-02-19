@@ -1,4 +1,49 @@
-/* Font */
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+/*  NavBar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+}
+
+nav a {
+  display: none;
+}
+
+span#logo {
+  padding-left: 5vw;
+}
+
+svg.fa-bars {
+  padding-right: 5vw;
+}
+
+@media only screen and (min-width: 768px) {
+  /* NavBar */
+  nav {
+    justify-content: space-around;
+  }
+
+  nav a {
+    display: initial;
+  }
+
+  span#logo {
+    padding-left: 0;
+  }
+
+  svg.fa-bars {
+    padding-right: 0;
+  }
+
+  svg.fa-bars {
+    display: none;
+  }
 }
