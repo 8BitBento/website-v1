@@ -57,6 +57,17 @@ div.nav-header {
   background: url(../images/background.jpeg) no-repeat center center/cover;
 }
 
+/* About Section */
+section#about {
+  width: 85vw;
+  text-align: center;
+  color: grey;
+}
+
+section#about main {
+  padding-top: 5vh;
+}
+
 @media only screen and (min-width: 768px) {
   /* NavBar */
   nav {
@@ -94,6 +105,13 @@ div.nav-header {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  /* About Section */
+  section#about {
+    width: 75vw;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   /* NavBar */
   nav {
@@ -107,6 +125,11 @@ div.nav-header {
 
   header button {
     padding: 20px 6vw 20px 6vw;
+  }
+
+  /* About Section */
+  section#about {
+    width: 60vw;
   }
 }
 
@@ -123,5 +146,10 @@ div.nav-header {
 
   header h1 {
     font-size: 5em;
+  }
+
+  /* About Section */
+  section#about {
+    width: 30vw;
   }
 }
