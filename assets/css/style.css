@@ -68,6 +68,41 @@ section#about main {
   padding-top: 5vh;
 }
 
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+footer h1 {
+  font-size: .6em;
+}
+
+footer small {
+  font-size: .5em;
+}
+
+section#contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding-bottom: 2vh;
+}
+
+section#contact-info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+section#contact-info span {
+  text-align: right;
+}
+
 @media only screen and (min-width: 768px) {
   /* NavBar */
   nav {
@@ -103,6 +138,17 @@ section#about main {
   header button {
     padding: 10px 4vw 10px 4vw;
   }
+
+  /* Footer */
+  section#contact-info {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65%;
+  }
+
+  section#contact-info div {
+    display: initial;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -131,6 +177,19 @@ section#about main {
   section#about {
     width: 60vw;
   }
+
+  /* Footer */
+  section#contact-info {
+    width: 50%;
+  }
+
+  footer h1 {
+    font-size: .8em;
+  }
+
+  footer small {
+    font-size: .7em;
+  }
 }
 
 @media only screen and (min-width: 2560px) {
@@ -151,5 +210,14 @@ section#about main {
   /* About Section */
   section#about {
     width: 30vw;
+  }
+
+  /* Footer */
+  footer h1 {
+    font-size: 1em;
+  }
+
+  footer small {
+    font-size: .9em;
   }
 }
