@@ -72,6 +72,59 @@ section#about main {
   padding-top: 5vh;
 }
 
+/* Contact Section */
+section#contact {
+  width: 100%;
+  text-align: center;
+  background-color: #5C634B;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#contact div {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+section#contact form {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  background-color: #899470;
+}
+
+input, textarea {
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: #CC9086;
+  color: white;
+}
+
+input[type="submit"]:active {
+  background-color: #B2867E;
+}
+
+input {
+  border-radius: 7.5px;
+  padding: 4vw;
+  width: 90vw;
+  margin-bottom: 2.5vh;
+}
+
+textarea {
+  border-radius: 7.5px;
+  width: 90vw;
+  padding: 4vw;
+  margin-bottom: 2.5vh;
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -143,6 +196,22 @@ section#contact-info span {
     padding: 10px 4vw 10px 4vw;
   }
 
+  /* Contact Section */
+  section#contact div {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  input {
+    padding: 3vw;
+    width: 55vw;
+  }
+
+  textarea {
+    width: 55vw;
+    padding: 3vw;
+  }
+
   /* Footer */
   section#contact-info {
     flex-direction: row;
@@ -159,6 +228,17 @@ section#contact-info span {
   /* About Section */
   section#about {
     width: 75vw;
+  }
+
+  /* Contact Section */
+  input {
+    padding: 2vw;
+    width: 40vw;
+  }
+
+  textarea {
+    width: 40vw;
+    padding: 2vw;
   }
 }
 
@@ -180,6 +260,17 @@ section#contact-info span {
   /* About Section */
   section#about {
     width: 60vw;
+  }
+
+  /* Contact Section */
+  input {
+    padding: 1vw;
+    width: 35vw;
+  }
+
+  textarea {
+    width: 35vw;
+    padding: 1vw;
   }
 
   /* Footer */
@@ -209,6 +300,15 @@ section#contact-info span {
 
   header h1 {
     font-size: 5em;
+  }
+
+  /* Contact Section */
+  input {
+    width: 25vw;
+  }
+
+  textarea {
+    width: 25vw;
   }
 
   /* About Section */
