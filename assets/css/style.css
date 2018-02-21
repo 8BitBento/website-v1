@@ -130,6 +130,9 @@ textarea {
 /* Services Section */
 section#services {
   width: 100%;
+  margin-top: 5vh;
+  padding-bottom: 5vh;
+  background: #F2F2F2;
 }
 /*
 Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pricing-Table?list=tags&tag=pricing_table
@@ -175,7 +178,8 @@ body {
 }
 
 .wrapper {
-
+  width: 60%;
+  margin: 0 auto;
 }
 
 .pricing-table {
@@ -238,8 +242,7 @@ body {
     margin-bottom: 0.625rem;
 }
 .price span{
-    font-size: 6rem;
-    letter-spacing: 8px;
+    font-size: 3rem;
     font-weight: bold;
 }
 .price sup{
