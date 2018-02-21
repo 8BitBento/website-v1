@@ -50,12 +50,12 @@ header button {
   padding: 5px 10vw 5px 10vw;
   border: none;
   border-radius: 7.5px;
-  background-color: #E37222;
+  background-color: #B82601;
   color: white;
 }
 
 header button:active {
-  background-color: #EEAA7B;
+  background-color: #400D00;
 }
 
 /* Background Image for Nav/Header */
@@ -80,7 +80,7 @@ section#about main {
 section#contact {
   width: 100%;
   text-align: center;
-  background-color: #07889B;
+  background-color: #052640;
   color: white;
 }
 
@@ -98,7 +98,7 @@ section#contact div {
 section#contact form {
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
-  background-color: #66B9BF;
+  background-color: #0A4C7F;
 }
 
 input, textarea {
@@ -107,12 +107,12 @@ input, textarea {
 
 input[type="submit"] {
   border: none;
-  background-color: #E37222;
+  background-color: #B82601;
   color: white;
 }
 
 input[type="submit"]:active {
-  background-color: #EEAA7B;
+  background-color: #400D00;
 }
 
 input {
