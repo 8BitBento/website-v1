@@ -5,6 +5,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Buttons */
+
+header button:active, input[type="submit"]:active {
+  background-color: #B2867E;
+}
+
 /*  NavBar */
 nav {
   display: flex;
@@ -29,11 +35,6 @@ span#logo {
   font-weight: 900;
 }
 
-svg.fa-bars {
-  padding-right: 5vw;
-  color: white;
-}
-
 /* Header */
 header {
   display: flex;
@@ -54,12 +55,9 @@ header button {
   align-self: center;
   padding: 5px 10vw 5px 10vw;
   border: none;
+  border-radius: 7.5px;
   background-color: #CC9086;
   color: white;
-}
-
-header button:active {
-  background-color: #B2867E;
 }
 
 /* Background Image for Nav/Header */
@@ -113,10 +111,6 @@ input[type="submit"] {
   border: none;
   background-color: #CC9086;
   color: white;
-}
-
-input[type="submit"]:active {
-  background-color: #B2867E;
 }
 
 input {
@@ -234,14 +228,6 @@ a {
 
   span#logo {
     padding-left: 0;
-  }
-
-  svg.fa-bars {
-    padding-right: 0;
-  }
-
-  svg.fa-bars {
-    display: none;
   }
 
   /* Header */
