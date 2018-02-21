@@ -15,7 +15,7 @@ nav {
 
 nav a {
   display: none;
-  color: red;
+  color: #FF2400;
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ nav a:hover {
 
 span#logo {
   padding-left: 5vw;
-  color: red;
+  color: #FF2400;
   font-weight: 900;
 }
 
@@ -41,8 +41,8 @@ header {
 
 header h1 {
   font-size: 1.5em;
-  text-shadow: 1px 0 red;
-  color: red;
+  text-shadow: 1px 0 #FF2400;
+  color: #FF2400;
 }
 
 header button {
@@ -50,7 +50,7 @@ header button {
   padding: 5px 10vw 5px 10vw;
   border: none;
   border-radius: 7.5px;
-  background-color: red;
+  background-color: #FF2400;
   color: white;
 }
 
