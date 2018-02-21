@@ -55,7 +55,7 @@ header button {
 }
 
 header button:active {
-  background-color: darkred;
+  background-color: red;
 }
 
 /* Background Image for Nav/Header */
@@ -80,7 +80,7 @@ section#about main {
 section#contact {
   width: 100%;
   text-align: center;
-  background-color: #18121E;
+  background-color: #575A5F;
   color: white;
 }
 
@@ -98,7 +98,7 @@ section#contact div {
 section#contact form {
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
-  background-color: #233237;
+  background-color: #B7B6BE;
 }
 
 input, textarea {
@@ -107,12 +107,12 @@ input, textarea {
 
 input[type="submit"] {
   border: none;
-  background-color: #984B43;
+  background-color: #FF2400;
   color: white;
 }
 
 input[type="submit"]:active {
-  background-color: #7F3F38;
+  background-color: red;
 }
 
 input {
