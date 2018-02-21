@@ -144,16 +144,16 @@ table {
 }
 
 th {
-  background-color: #848FFF;
+  background-color: #575A5F;
 }
 
 th:first-child {
-  background-color: #FFF8C4;
+  background-color: #FF2400;
   font-weight: 400;
 }
 
 td {
-  background-color: #d6e4ff;
+  background-color: #B7B6BE;
   font-weight: 900;
 }
 
