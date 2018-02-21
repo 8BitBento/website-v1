@@ -127,6 +127,7 @@ textarea {
 
 /* Services Section */
 section#services {
+  width: 100vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
   overflow-x: auto;
@@ -136,6 +137,32 @@ table {
   display: border-box;
   border-collapse: collapse;
   text-align: center;
+}
+
+th {
+  background-color: #848FFF;
+}
+
+th:first-child {
+  background-color: #FFF8C4;
+  font-weight: 400;
+}
+
+td {
+  background-color: #d6e4ff;
+  font-weight: 900;
+}
+
+td.empty, td:empty {
+  background-color: initial;
+  font-weight: initial;
+}
+
+th#table-title {
+  background-color: initial;
+  border-top: none;
+  border-left: none;
+  font-weight: 900;
 }
 
 th, td {
@@ -176,6 +203,14 @@ section#contact-info div {
 
 section#contact-info span {
   text-align: right;
+}
+
+svg {
+  color: initial;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -257,6 +292,13 @@ section#contact-info span {
   textarea {
     width: 40vw;
     padding: 2vw;
+  }
+
+  /* Services Section */
+  section#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
