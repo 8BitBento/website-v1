@@ -51,8 +51,15 @@ header h1 {
 }
 
 header button {
-  align-self: flex-end;
-  margin-right: 5vw;
+  align-self: center;
+  padding: 5px 10vw 5px 10vw;
+  border: none;
+  background-color: #CC9086;
+  color: white;
+}
+
+header button:active {
+  background-color: #B2867E;
 }
 
 /* Background Image for Nav/Header */
