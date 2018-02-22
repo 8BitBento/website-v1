@@ -45,17 +45,13 @@ header h1 {
   color: #E32636;
 }
 
-header button {
+header input {
   align-self: center;
   padding: 5px 10vw 5px 10vw;
   border: none;
   border-radius: 7.5px;
   background-color: #E32636;
   color: white;
-}
-
-header button:active {
-  background-color: darkred;
 }
 
 /* Background Image for Nav/Header */
@@ -182,7 +178,7 @@ input[type="submit"]:active {
   background-color: darkred;
 }
 
-input {
+section#contact input {
   border-radius: 7.5px;
   padding: 4vw;
   width: 90vw;
@@ -263,7 +259,7 @@ a {
     font-size: 2.5em;
   }
 
-  header button {
+  header input {
     padding: 10px 4vw 10px 4vw;
   }
 
@@ -273,7 +269,7 @@ a {
     padding-bottom: 2vh;
   }
 
-  input {
+  section#contact input {
     padding: 3vw;
     width: 55vw;
   }
@@ -312,7 +308,7 @@ a {
   }
 
   /* Contact Section */
-  input {
+  section#contact input {
     padding: 2vw;
     width: 40vw;
   }
@@ -334,7 +330,7 @@ a {
     font-size: 4em;
   }
 
-  header button {
+  header input {
     padding: 20px 6vw 20px 6vw;
   }
 
@@ -344,7 +340,7 @@ a {
   }
 
   /* Contact Section */
-  input {
+  section#contact input {
     padding: 1vw;
     width: 35vw;
   }
@@ -384,7 +380,7 @@ a {
   }
 
   /* Contact Section */
-  input {
+  section#contact input {
     width: 25vw;
   }
 
