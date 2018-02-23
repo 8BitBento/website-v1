@@ -10,7 +10,9 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  background-color: rgba(182, 181, 188, 0.4);
 }
 
 nav a {
@@ -35,13 +37,19 @@ header {
   flex-direction: column;
   width: 85vw;
   margin: 0 auto;
-  padding-top: 25vh;
+  margin-top: 25vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  border-radius: 15px;
   text-align: center;
+  background-color: rgba(182, 181, 188, 0.4);
 }
 
 header h1 {
+  margin: 0;
+  margin-bottom: 3vh;
   font-size: 1.5em;
-  text-shadow: 1px 0 #E32636;
+  text-shadow: #E32636;
   color: #E32636;
 }
 
