@@ -26,7 +26,7 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-span#logo {
+#logo {
   padding-left: 5vw;
   color: #E32636;
   font-weight: 900;
@@ -62,25 +62,25 @@ header input {
 }
 
 /* Background Image for Nav/Header */
-div.nav-header {
+.nav-header {
   width: 100%;
   height: 100vh;
   background: url(../images/background2.jpeg) no-repeat center center/cover;
 }
 
 /* About Section */
-section#about {
+#about {
   width: 85vw;
   text-align: center;
   color: grey;
 }
 
-section#about main {
+#about main {
   padding-top: 5vh;
 }
 
 /* Services Section */
-section#services {
+#services {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +90,7 @@ section#services {
   color: white;
 }
 
-section#services section {
+#services section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@ section#services section {
   background-color: #2F2D39;
 }
 
-section#services div {
+#services div {
   width: 100%;
   margin: 0;
   padding-top: 5vh;
@@ -107,48 +107,48 @@ section#services div {
   text-align: center;
 }
 
-section#services h1 {
+#services h1 {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
 }
 
-section.simple-offering div:first-child {
+.simple-offering div:first-child {
   width: 100%;
   background-color: #E9C732;
 }
 
-section.standard-offering div:first-child {
+.standard-offering div:first-child {
   width: 100%;
   background-color: #29BA99;
 }
 
-section.ultimate-offering div:first-child {
+.ultimate-offering div:first-child {
   width: 100%;
   background-color: #5F6A97;
 }
 
-section.add-ons div:first-child {
+.add-ons div:first-child {
   width: 100%;
   background-color: #E32636;
 }
 
-section#services section div:nth-child(n+2) {
+#services section div:nth-child(n+2) {
   border-bottom: 1px solid grey;
 }
 
-section#services section div:last-child {
+#services section div:last-child {
   padding-bottom: 10vh;
   font-weight: 900;
   border-bottom: none;
 }
 
-section#services a {
+#services a {
   color: white;
 }
 
 /* Contact Section */
-section#contact {
+#contact {
   width: 100%;
   text-align: center;
   background-color: #575A5F;
@@ -161,12 +161,12 @@ form {
   align-items: center;
 }
 
-section#contact div {
+#contact div {
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
 
-section#contact form {
+#contact form {
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
   background-color: #B7B6BE;
@@ -186,7 +186,7 @@ input[type="submit"]:active {
   background-color: darkred;
 }
 
-section#contact input {
+#contact input {
   padding: 4vw;
   width: 90vw;
   margin-bottom: 2.5vh;
@@ -216,20 +216,20 @@ footer small {
   font-size: .5em;
 }
 
-section#contact-info {
+#contact-info {
   display: flex;
   flex-direction: column;
   width: 75%;
   padding-bottom: 2vh;
 }
 
-section#contact-info div {
+#contact-info div {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-section#contact-info span {
+#contact-info span {
   text-align: right;
 }
 
@@ -252,7 +252,7 @@ a {
     display: initial;
   }
 
-  span#logo {
+  #logo {
     padding-left: 0;
   }
 
@@ -270,12 +270,12 @@ a {
   }
 
   /* Contact Section */
-  section#contact div {
+  #contact div {
     padding-top: 2vh;
     padding-bottom: 2vh;
   }
 
-  section#contact input {
+  #contact input {
     padding: 3vw;
     width: 55vw;
   }
@@ -286,35 +286,35 @@ a {
   }
 
   /* Footer */
-  section#contact-info {
+  #contact-info {
     flex-direction: row;
     justify-content: space-evenly;
     width: 65%;
   }
 
-  section#contact-info div {
+  #contact-info div {
     display: initial;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   /* About Section */
-  section#about {
+  #about {
     width: 75vw;
   }
 
   /* Services Section */
-  section#services {
+  #services {
     flex-direction: row;
     justify-content: space-evenly;
   }
 
-  section#services section {
+  #services section {
     width: 23%;
   }
 
   /* Contact Section */
-  section#contact input {
+  #contact input {
     padding: 2vw;
     width: 40vw;
   }
@@ -341,12 +341,12 @@ a {
   }
 
   /* About Section */
-  section#about {
+  #about {
     width: 60vw;
   }
 
   /* Contact Section */
-  section#contact input {
+  #contact input {
     padding: 1vw;
     width: 35vw;
   }
@@ -357,7 +357,7 @@ a {
   }
 
   /* Footer */
-  section#contact-info {
+  #contact-info {
     width: 50%;
   }
 
@@ -386,7 +386,7 @@ a {
   }
 
   /* Contact Section */
-  section#contact input {
+  #contact input {
     width: 25vw;
   }
 
@@ -395,7 +395,7 @@ a {
   }
 
   /* About Section */
-  section#about {
+  #about {
     width: 30vw;
   }
 
