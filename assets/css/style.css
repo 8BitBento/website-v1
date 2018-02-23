@@ -41,7 +41,6 @@ header {
   margin-top: 25vh;
   padding-top: 3vh;
   padding-bottom: 3vh;
-  border-radius: 15px;
   text-align: center;
   background-color: rgba(88, 90, 95, 0.6);
 }
@@ -58,7 +57,6 @@ header input {
   align-self: center;
   padding: 5px 10vw 5px 10vw;
   border: none;
-  border-radius: 7.5px;
   background-color: #E32636;
   color: white;
 }
@@ -145,15 +143,6 @@ section#services section div:last-child {
   border-bottom: none;
 }
 
-section#services section {
-  border-radius: 15px;
-}
-
-section#services section div:first-child {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
 section#services a {
   color: white;
 }
@@ -198,14 +187,12 @@ input[type="submit"]:active {
 }
 
 section#contact input {
-  border-radius: 7.5px;
   padding: 4vw;
   width: 90vw;
   margin-bottom: 2.5vh;
 }
 
 textarea {
-  border-radius: 7.5px;
   width: 90vw;
   padding: 4vw;
   margin-bottom: 2.5vh;
