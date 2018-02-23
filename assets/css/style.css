@@ -90,11 +90,11 @@ header input {
   color: white;
 }
 
-#services section {
+#services .service {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 85%;
+  align-items: center;
   margin-bottom: 5vh;
   background-color: #2F2D39;
 }
@@ -133,11 +133,11 @@ header input {
   background-color: #E32636;
 }
 
-#services section div:nth-child(n+2) {
+#services .service div:nth-child(n+2) {
   border-bottom: 1px solid grey;
 }
 
-#services section div:last-child {
+#services .service div:last-child {
   padding-bottom: 10vh;
   font-weight: 900;
   border-bottom: none;
@@ -209,11 +209,11 @@ footer {
 }
 
 footer h1 {
-  font-size: .6em;
+  font-size: .65em;
 }
 
 footer small {
-  font-size: .5em;
+  font-size: .55em;
 }
 
 #contact-info {
@@ -295,6 +295,14 @@ a {
   #contact-info div {
     display: initial;
   }
+
+  footer h1 {
+    font-size: .8em;
+  }
+
+  footer small {
+    font-size: .7em;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -309,7 +317,7 @@ a {
     justify-content: space-evenly;
   }
 
-  #services section {
+  #services .service {
     width: 23%;
   }
 
@@ -401,10 +409,10 @@ a {
 
   /* Footer */
   footer h1 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   footer small {
-    font-size: .9em;
+    font-size: 1em;
   }
 }
