@@ -12,7 +12,7 @@ nav {
   width: 100%;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
-  background-color: rgba(182, 181, 188, 0.4);
+  background-color: rgba(88, 90, 95, 0.5);
 }
 
 nav a {
@@ -21,9 +21,12 @@ nav a {
   text-decoration: none;
 }
 
+/*
 nav a:hover {
   font-weight: 700;
+  transform: scale(1.1);
 }
+*/
 
 span#logo {
   padding-left: 5vw;
@@ -42,7 +45,7 @@ header {
   padding-bottom: 3vh;
   border-radius: 15px;
   text-align: center;
-  background-color: rgba(182, 181, 188, 0.4);
+  background-color: rgba(88, 90, 95, 0.5);
 }
 
 header h1 {
@@ -98,6 +101,20 @@ section#services section {
   width: 85%;
   margin-bottom: 5vh;
   background-color: #2F2D39;
+  /* transition-duration: .7s; */
+}
+
+section#services section {
+  border-radius: 15px;
+}
+
+section#services section div:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+section#services section:hover {
+  /* transform: scale(1.1); */
 }
 
 section#services div {
@@ -141,11 +158,27 @@ section#services section div:nth-child(n+2) {
 section#services section div:last-child {
   padding-bottom: 10vh;
   font-weight: 900;
+  border-bottom: none;
 }
 
 section#services a {
   color: white;
 }
+
+/* Services Expansion */
+/*
+section#services p {
+  display: none;
+  font-size: .8em;
+  color: lightgrey;
+}
+
+section#services div.expansion:hover p {
+  display: block;
+  width: 85%;
+  margin: 1vw auto 0 auto;
+}
+*/
 
 /* Contact Section */
 section#contact {
