@@ -12,7 +12,7 @@ nav {
   width: 100%;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
-  background-color: rgba(182, 181, 188, 0.4);
+  background-color: rgba(88, 90, 95, 0.5);
 }
 
 nav a {
@@ -23,6 +23,7 @@ nav a {
 
 nav a:hover {
   font-weight: 700;
+  transform: scale(1.1);
 }
 
 span#logo {
@@ -42,7 +43,7 @@ header {
   padding-bottom: 3vh;
   border-radius: 15px;
   text-align: center;
-  background-color: rgba(182, 181, 188, 0.4);
+  background-color: rgba(88, 90, 95, 0.5);
 }
 
 header h1 {
@@ -141,6 +142,16 @@ section#services section div:nth-child(n+2) {
 section#services section div:last-child {
   padding-bottom: 10vh;
   font-weight: 900;
+  border-bottom: none;
+}
+
+section#services section {
+  border-radius: 15px;
+}
+
+section#services section div:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 section#services a {
