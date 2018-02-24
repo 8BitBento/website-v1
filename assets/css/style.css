@@ -349,10 +349,6 @@ a {
     transform: scale(1.1);
   }
 
-  #services svg {
-    display: none;
-  }
-
   /* Services Accordion */
   .service p {
     font-size: .75em;
