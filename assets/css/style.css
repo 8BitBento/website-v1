@@ -145,7 +145,7 @@ header input {
 }
 
 /* Services Accordion */
-.service p {
+.accordion p {
   max-height: 0;
   overflow: hidden;
   width: 85%;
@@ -350,7 +350,7 @@ a {
   }
 
   /* Services Accordion */
-  .service p {
+  .accordion p {
     font-size: .75em;
   }
 
@@ -387,7 +387,7 @@ a {
   }
 
   /* Services Accordion */
-  .service p {
+  .accordion p {
     font-size: .85em;
   }
 
@@ -437,7 +437,7 @@ a {
   }
 
   /* Services Accordion */
-  .service p {
+  .accordion p {
     font-size: .9em;
   }
 
