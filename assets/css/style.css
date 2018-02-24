@@ -199,6 +199,10 @@ input[type="submit"]:active {
   background-color: darkred;
 }
 
+textarea {
+  background-color: white;
+}
+
 #contact input {
   padding: 4vw;
   width: 90vw;
@@ -210,6 +214,8 @@ textarea {
   padding: 4vw;
   margin-bottom: 2.5vh;
 }
+
+
 
 /* Footer */
 footer {
