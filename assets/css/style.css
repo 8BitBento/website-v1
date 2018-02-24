@@ -252,7 +252,7 @@ footer small {
   text-align: right;
 }
 
-svg {
+footer svg {
   color: initial;
 }
 
@@ -347,6 +347,10 @@ a {
 
   #services .service:hover {
     transform: scale(1.1);
+  }
+
+  #services svg {
+    display: none;
   }
 
   /* Services Accordion */
