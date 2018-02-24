@@ -131,13 +131,20 @@ header input {
   color: white;
 }
 
+.title p {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-size: .9em;
+}
+
 /* Services Accordion */
-.accordion p {
+.expandable p {
   max-height: 0;
   overflow: hidden;
   width: 85%;
   margin: 0 auto;
-  font-size: .65em;
+  font-size: .9em;
   text-align: left;
   color: #B6B5BC;
   transition-duration: .5s;
@@ -270,9 +277,9 @@ a {
     padding: 10px 4vw 10px 4vw;
   }
 
-  /* Services Accordion */
+  /* Services */
   .service p {
-    font-size: .7em;
+    font-size: 1.1em;
   }
 
   /* Contact Section */
@@ -331,9 +338,12 @@ a {
     transform: scale(1.1);
   }
 
-  /* Services Accordion */
-  .accordion p {
+  .service p {
     font-size: .75em;
+  }
+
+  .title p {
+    font-size: .8em;
   }
 
   /* Contact Section */
@@ -368,8 +378,8 @@ a {
     width: 60vw;
   }
 
-  /* Services Accordion */
-  .accordion p {
+  /* Services */
+  .service p {
     font-size: .85em;
   }
 
@@ -418,8 +428,8 @@ a {
     width: 30vw;
   }
 
-  /* Services Accordion */
-  .accordion p {
+  /* Services */
+  .service p {
     font-size: .9em;
   }
 
