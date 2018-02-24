@@ -113,31 +113,27 @@ header input {
   text-align: center;
 }
 
-.simple-offering div:first-child {
-  width: 100%;
+.simple-offering .title {
   background-color: #E9C732;
 }
 
-.standard-offering div:first-child {
-  width: 100%;
+.standard-offering .title {
   background-color: #29BA99;
 }
 
-.ultimate-offering div:first-child {
-  width: 100%;
+.ultimate-offering .title {
   background-color: #5F6A97;
 }
 
-.add-ons div:first-child {
-  width: 100%;
+.add-ons .title {
   background-color: #E32636;
 }
 
-#services .service div:nth-child(n+2) {
+.service div:nth-child(n+2) {
   border-bottom: 1px solid grey;
 }
 
-#services .service div:last-child {
+.service div:last-child {
   padding-bottom: 10vh;
   font-weight: 900;
   border-bottom: none;
@@ -146,6 +142,9 @@ header input {
 #services a {
   color: white;
 }
+
+/* Services Accordion */
+
 
 /* Contact Section */
 #contact {
