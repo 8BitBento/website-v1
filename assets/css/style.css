@@ -7,23 +7,10 @@ body {
 
 /*  NavBar */
 nav {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
+  text-align: left;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
-
-}
-
-nav a {
-  display: none;
-  color: #E32636;
-  text-decoration: none;
-}
-
-nav a:hover {
-  font-weight: 700;
-  transform: scale(1.1);
 }
 
 #logo {
@@ -263,17 +250,11 @@ a {
 @media only screen and (min-width: 768px) {
   /* NavBar */
   nav {
-    justify-content: space-around;
     font-size: 1.4em;
-    background-color: rgba(88, 90, 95, 0.6);
-  }
-
-  nav a {
-    display: initial;
   }
 
   #logo {
-    padding-left: 0;
+    margin-left: 0;
   }
 
   /* Header */
