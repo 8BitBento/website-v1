@@ -12,7 +12,7 @@ nav {
   width: 100%;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
-  background-color: rgba(88, 90, 95, 0.6);
+
 }
 
 nav a {
@@ -265,6 +265,7 @@ a {
   nav {
     justify-content: space-around;
     font-size: 1.4em;
+    background-color: rgba(88, 90, 95, 0.6);
   }
 
   nav a {
