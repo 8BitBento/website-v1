@@ -97,6 +97,7 @@ header input {
   align-items: center;
   margin-bottom: 5vh;
   background-color: #2F2D39;
+  transition-duration: .25s;
 }
 
 #services div {
@@ -144,7 +145,26 @@ header input {
 }
 
 /* Services Accordion */
+.service p {
+  max-height: 0;
+  overflow: hidden;
+  width: 85%;
+  margin: 0 auto;
+  font-size: .65em;
+  text-align: left;
+  color: #B6B5BC;
+  transition-duration: .5s;
+  transition-delay: .2s;
+  transition-timing-function: ease-in;
+}
 
+.expandable:focus > p, .expandable:hover > p {
+  max-height: 25em;
+}
+
+:focus {
+  outline: none;
+}
 
 /* Contact Section */
 #contact {
@@ -268,6 +288,11 @@ a {
     padding: 10px 4vw 10px 4vw;
   }
 
+  /* Services Accordion */
+  .service p {
+    font-size: .7em;
+  }
+
   /* Contact Section */
   #contact div {
     padding-top: 2vh;
@@ -320,6 +345,15 @@ a {
     width: 23%;
   }
 
+  #services .service:hover {
+    transform: scale(1.1);
+  }
+
+  /* Services Accordion */
+  .service p {
+    font-size: .75em;
+  }
+
   /* Contact Section */
   #contact input {
     padding: 2vw;
@@ -350,6 +384,11 @@ a {
   /* About Section */
   #about {
     width: 60vw;
+  }
+
+  /* Services Accordion */
+  .service p {
+    font-size: .85em;
   }
 
   /* Contact Section */
@@ -392,6 +431,16 @@ a {
     font-size: 5em;
   }
 
+  /* About Section */
+  #about {
+    width: 30vw;
+  }
+
+  /* Services Accordion */
+  .service p {
+    font-size: .9em;
+  }
+
   /* Contact Section */
   #contact input {
     width: 25vw;
@@ -399,11 +448,6 @@ a {
 
   textarea {
     width: 25vw;
-  }
-
-  /* About Section */
-  #about {
-    width: 30vw;
   }
 
   /* Footer */
