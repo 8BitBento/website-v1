@@ -241,7 +241,7 @@ footer small {
   padding-bottom: 2vh;
 }
 
-#contact-info div {
+#contact-info > div {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
