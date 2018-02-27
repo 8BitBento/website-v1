@@ -456,3 +456,14 @@ a {
     font-size: 1em;
   }
 }
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  /* IE10+ specific styles go here */
+  #contact-info {
+    justify-content: stretch;
+  }
+
+  #services {
+    justify-content: stretch;
+  }
+}
