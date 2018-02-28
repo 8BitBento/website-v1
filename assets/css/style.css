@@ -311,6 +311,10 @@ a {
   }
 
   #contact-info div {
+    flex-direction: column;
+  }
+
+  #contact-info div {
     display: initial;
   }
 
@@ -465,9 +469,5 @@ a {
 
   #services {
     justify-content: space-around;
-  }
-
-  #contact-info .ie11-flexbug-fix {
-    display: block;
   }
 }
