@@ -318,6 +318,10 @@ a {
     display: initial;
   }
 
+  #contact-info span, #contact-info small {
+    text-align: left;
+  }
+
   footer h1 {
     font-size: .8em;
   }
