@@ -468,6 +468,6 @@ a {
   }
 
   #contact-info .ie11-flexbug-fix {
-    display: table;
+    display: block;
   }
 }
