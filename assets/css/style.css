@@ -479,3 +479,18 @@ a {
     padding-bottom: 3.5em;
   }
 }
+
+@supports (-ms-ime-align: auto) {
+  /* Microsoft Edge specific styles go here */
+  #contact-info {
+    justify-content: space-around;
+  }
+
+  #services {
+    justify-content: space-around;
+  }
+
+  #contact-info .ie11-fix {
+    padding-bottom: 3.5em;
+  }
+}
