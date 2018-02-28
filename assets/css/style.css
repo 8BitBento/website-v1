@@ -466,8 +466,8 @@ a {
   #services {
     justify-content: space-around;
   }
-}
 
-#contact-info div:before {
-  content: "\A";
+  #contact-info .ie11-flexbug-fix {
+    display: table;
+  }
 }
