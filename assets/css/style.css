@@ -474,4 +474,8 @@ a {
   #services {
     justify-content: space-around;
   }
+
+  #contact-info .ie11-fix {
+    padding-bottom: 2em;
+  }
 }
