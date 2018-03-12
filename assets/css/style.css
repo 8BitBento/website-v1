@@ -6,19 +6,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/*  NavBar */
-nav {
-  width: 100%;
-  text-align: left;
-  padding-top: 1.5vh;
-  padding-bottom: 1.5vh;
-}
+/*  Logo */
 
-#logo {
-  padding-left: 5vw;
-  color: #E32636;
-  font-weight: 900;
-}
 
 /* Header */
 header {
