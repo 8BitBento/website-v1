@@ -13,6 +13,10 @@ body {
   align-self: center;
 }
 
+nav {
+  display: none;
+}
+
 /* Logo Utility Color Classes */
 .pink-text {
   color: #D3475C;
@@ -282,6 +286,24 @@ a {
     display: none;
   }
 
+  nav {
+    display: flex;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #logo {
+    height: 10vh;
+    border-left: 3vw solid transparent;
+  }
+
+  #logo-text {
+    height: 7vh;
+  }
+
   /* Header */
   header {
     width: 65vw;
@@ -345,6 +367,25 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+  /* Logo */
+  nav {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  #logo {
+    height: 8vh;
+  }
+
+  #logo-text {
+    height: 5vh;
+  }
+
+  /* Header */
+  header {
+    width: 50vw;
+  }
+
   /* About Section */
   #about {
     width: 75vw;
@@ -387,7 +428,7 @@ a {
 @media only screen and (min-width: 1440px) {
   /* Header */
   header h1 {
-    font-size: 2.6em;
+    font-size: 4em;
   }
 
   header input {
@@ -432,7 +473,7 @@ a {
 @media only screen and (min-width: 1600px) {
   /* Header */
   header {
-    width: 45vw;
+    width: 60vw;
   }
 
   header h1 {
