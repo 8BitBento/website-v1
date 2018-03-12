@@ -280,12 +280,12 @@
       <div>
         <h1>Get in Touch</h1>
       </div>
-      <form>
-        <input type="text" placeholder="Name*" required>
-        <input type="text" placeholder="Company">
-        <input type="text" placeholder="Email*" required>
-        <input type="tel" placeholder="Phone Number*" required>
-        <textarea rows="10" placeholder="Write your message here."></textarea>
+      <form action="form-to-email.php" method="post">
+        <input type="text" name="name" placeholder="Name*" required>
+        <input type="text" name="company" placeholder="Company">
+        <input type="text" name="email" placeholder="Email*" required>
+        <input type="tel" name="phone" placeholder="Phone Number*" required>
+        <textarea rows="10" name="message" placeholder="Write your message here.*" required></textarea>
         <br>
         <input type="submit" class="red">
       </form>
