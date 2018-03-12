@@ -1,2 +1,3 @@
-# Version 1
-[Relevant Trello Card](https://trello.com/c/BqVfCRVD)
+# 8BitBento V1 Static HTML
+
+The first version of our website in static HTML.  Branches for various implementations.
