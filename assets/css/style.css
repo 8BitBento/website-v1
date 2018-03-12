@@ -38,7 +38,7 @@ header {
   flex-direction: column;
   width: 85vw;
   margin: 0 auto;
-  margin-top: 25vh;
+  margin-top: 20vh;
   padding-top: 3vh;
   padding-bottom: 3vh;
   text-align: center;
@@ -194,7 +194,7 @@ form {
 #contact form {
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
-  background-color: #B7B6BE;
+  background-color: #6c7880;
 }
 
 input, textarea {
@@ -269,14 +269,17 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
-  /* NavBar */
-  nav {
-    font-size: 1.4em;
+@media only screen and (min-width: 425px) {
+  /* Logo */
+  #logo-and-text {
+    width: 66vw;
   }
+}
 
-  #logo {
-    margin-left: 0;
+@media only screen and (min-width: 768px) {
+  /* Logo */
+  #logo-and-text {
+    display: none;
   }
 
   /* Header */
@@ -285,7 +288,7 @@ a {
   }
 
   header h1 {
-    font-size: 2.5em;
+    font-size: 2.1em;
   }
 
   header input {
@@ -382,14 +385,9 @@ a {
 }
 
 @media only screen and (min-width: 1440px) {
-  /* NavBar */
-  nav {
-    font-size: 1.6em;
-  }
-
   /* Header */
   header h1 {
-    font-size: 4em;
+    font-size: 2.6em;
   }
 
   header input {
@@ -432,11 +430,6 @@ a {
 }
 
 @media only screen and (min-width: 1600px) {
-  /* NavBar */
-  nav {
-    font-size: 2em;
-  }
-
   /* Header */
   header {
     width: 45vw;
