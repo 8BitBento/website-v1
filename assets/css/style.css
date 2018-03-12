@@ -7,7 +7,30 @@ body {
 }
 
 /*  Logo */
+#logo-and-text {
+  width: 83vw;
+  padding-bottom: 3vh;
+  align-self: center;
+}
 
+/* Logo Utility Color Classes */
+.pink-text {
+  color: #D3475C;
+}
+
+.dark-blue-text {
+  color: #0A1E2C;
+}
+
+.red {
+  background-color: #E32636;
+}
+
+/*
+Cyan: #33A7AF
+Light Red: #DB6578
+Green: #67B65D
+*/
 
 /* Header */
 header {
@@ -19,22 +42,21 @@ header {
   padding-top: 3vh;
   padding-bottom: 3vh;
   text-align: center;
-  background-color: rgba(88, 90, 95, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 header h1 {
   margin: 0;
   margin-bottom: 3vh;
   font-size: 1.5em;
-  text-shadow: #E32636;
-  color: white;
+  /* text-shadow: #E32636;
+  color: white; */
 }
 
 header input {
   align-self: center;
   padding: 5px 10vw 5px 10vw;
   border: none;
-  background-color: #E32636;
   color: white;
 }
 
@@ -73,7 +95,7 @@ header input {
   width: 85%;
   align-items: center;
   margin-bottom: 5vh;
-  background-color: #2F2D39;
+  background-color: #0A1E2C;
   transition-duration: .25s;
 }
 
@@ -92,15 +114,15 @@ header input {
 }
 
 .simple-offering .title {
-  background-color: #E9C732;
+  background-color: #DB6578;
 }
 
 .standard-offering .title {
-  background-color: #29BA99;
+  background-color: #67B65D;
 }
 
 .ultimate-offering .title {
-  background-color: #5F6A97;
+  background-color: #33A7AF;
 }
 
 .add-ons .title {
@@ -154,7 +176,7 @@ header input {
 #contact {
   width: 100%;
   text-align: center;
-  background-color: #575A5F;
+  background-color: #0A1E2C;
   color: white;
 }
 
@@ -181,7 +203,6 @@ input, textarea {
 
 input[type="submit"] {
   border: none;
-  background-color: #E32636;
   color: white;
 }
 
