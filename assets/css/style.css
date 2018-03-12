@@ -289,19 +289,15 @@ a {
   nav {
     display: flex;
     align-items: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
   }
 
   #logo {
-    height: 10vh;
+    height: 8vh;
     border-left: 3vw solid transparent;
-  }
-
-  #logo-text {
-    height: 7vh;
   }
 
   /* Header */
@@ -368,17 +364,8 @@ a {
 
 @media only screen and (min-width: 1024px) {
   /* Logo */
-  nav {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-  }
-
   #logo {
     height: 8vh;
-  }
-
-  #logo-text {
-    height: 5vh;
   }
 
   /* Header */
@@ -426,6 +413,11 @@ a {
 }
 
 @media only screen and (min-width: 1440px) {
+  /* Logo */
+  #logo {
+    height: 5vh;
+  }
+
   /* Header */
   header h1 {
     font-size: 4em;
