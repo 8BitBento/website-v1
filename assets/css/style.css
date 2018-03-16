@@ -1,0 +1,532 @@
+body {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*  Logo */
+#logo-and-text {
+  width: 83vw;
+  padding-bottom: 3vh;
+  align-self: center;
+}
+
+nav {
+  display: none;
+}
+
+/* Logo Utility Color Classes */
+.pink-text {
+  color: #D3475C;
+}
+
+.dark-blue-text {
+  color: #0A1E2C;
+}
+
+.red {
+  background-color: #E32636;
+}
+
+/*
+Cyan: #33A7AF
+Light Red: #DB6578
+Green: #67B65D
+*/
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  margin: 0 auto;
+  margin-top: 20vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+header h1 {
+  margin: 0;
+  margin-bottom: 3vh;
+  font-size: 1.5em;
+  /* text-shadow: #E32636;
+  color: white; */
+}
+
+header input {
+  align-self: center;
+  padding: 5px 10vw 5px 10vw;
+  border: none;
+  color: white;
+}
+
+/* Background Image for Nav/Header */
+.nav-header {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/background2.jpeg) no-repeat center center/cover;
+}
+
+/* About Section */
+#about {
+  width: 85vw;
+  text-align: center;
+  color: grey;
+}
+
+#about main {
+  padding-top: 5vh;
+}
+
+/* Services Section */
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: white;
+}
+
+#services .service {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  align-items: center;
+  margin-bottom: 5vh;
+  background-color: #0A1E2C;
+  transition-duration: .25s;
+}
+
+#services div {
+  width: 100%;
+  margin: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+#services h1 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.simple-offering .title {
+  background-color: #DB6578;
+}
+
+.standard-offering .title {
+  background-color: #67B65D;
+}
+
+.ultimate-offering .title {
+  background-color: #33A7AF;
+}
+
+.add-ons .title {
+  background-color: #E32636;
+}
+
+.service div:nth-child(n+2) {
+  border-bottom: 1px solid grey;
+}
+
+.service div:last-child {
+  padding-bottom: 10vh;
+  font-weight: 900;
+  border-bottom: none;
+}
+
+#services a {
+  color: white;
+}
+
+.title p {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-size: .9em;
+}
+
+/* Services Accordion */
+.expandable p {
+  max-height: 0;
+  overflow: hidden;
+  width: 85%;
+  margin: 0 auto;
+  font-size: .9em;
+  text-align: left;
+  color: #B6B5BC;
+  transition-duration: .5s;
+  transition-delay: .2s;
+  transition-timing-function: ease-in;
+}
+
+.expandable:focus > p, .expandable:hover > p {
+  max-height: 25em;
+}
+
+:focus {
+  outline: none;
+}
+
+/* Contact Section */
+#contact {
+  width: 100%;
+  text-align: center;
+  background-color: #0A1E2C;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact div {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+#contact form {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  background-color: #6c7880;
+}
+
+input, textarea {
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border: none;
+  color: white;
+}
+
+input[type="submit"]:active {
+  background-color: darkred;
+}
+
+textarea {
+  background-color: white;
+}
+
+#contact input {
+  padding: 4vw;
+  width: 90vw;
+  margin-bottom: 2.5vh;
+}
+
+textarea {
+  width: 90vw;
+  padding: 4vw;
+  margin-bottom: 2.5vh;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+footer h1 {
+  font-size: .65em;
+}
+
+footer small {
+  font-size: .55em;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding-bottom: 2vh;
+}
+
+#contact-info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#contact-info span {
+  text-align: right;
+}
+
+footer svg {
+  color: initial;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 425px) {
+  /* Logo */
+  #logo-and-text {
+    width: 66vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Logo */
+  #logo-and-text {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #logo {
+    height: 8vh;
+    border-left: 3vw solid transparent;
+  }
+
+  /* Header */
+  header {
+    width: 65vw;
+  }
+
+  header h1 {
+    font-size: 2.1em;
+  }
+
+  header input {
+    padding: 10px 4vw 10px 4vw;
+  }
+
+  /* Services */
+  .service p {
+    font-size: 1.1em;
+  }
+
+  /* Contact Section */
+  #contact div {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  #contact input {
+    padding: 3vw;
+    width: 55vw;
+  }
+
+  textarea {
+    width: 55vw;
+    padding: 3vw;
+  }
+
+  /* Footer */
+  #contact-info {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65%;
+  }
+
+  #contact-info div {
+    flex-direction: column;
+  }
+
+  #contact-info div {
+    display: initial;
+  }
+
+  #contact-info span, #contact-info small {
+    text-align: left;
+  }
+
+  footer h1 {
+    font-size: .8em;
+  }
+
+  footer small {
+    font-size: .7em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Logo */
+  #logo {
+    height: 8vh;
+  }
+
+  /* Header */
+  header {
+    width: 50vw;
+  }
+
+  /* About Section */
+  #about {
+    width: 75vw;
+  }
+
+  /* Services Section */
+  #services {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #services .service {
+    width: 23%;
+  }
+
+  #services .service:hover {
+    transform: scale(1.1);
+  }
+
+  .service p {
+    font-size: .75em;
+  }
+
+  .title p {
+    font-size: .8em;
+  }
+
+  /* Contact Section */
+  #contact input {
+    padding: 2vw;
+    width: 40vw;
+  }
+
+  textarea {
+    width: 40vw;
+    padding: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* Logo */
+  #logo {
+    height: 5vh;
+  }
+
+  /* Header */
+  header h1 {
+    font-size: 4em;
+  }
+
+  header input {
+    padding: 20px 6vw 20px 6vw;
+  }
+
+  /* About Section */
+  #about {
+    width: 60vw;
+  }
+
+  /* Services */
+  .service p {
+    font-size: .85em;
+  }
+
+  /* Contact Section */
+  #contact input {
+    padding: 1vw;
+    width: 35vw;
+  }
+
+  textarea {
+    width: 35vw;
+    padding: 1vw;
+  }
+
+  /* Footer */
+  #contact-info {
+    width: 50%;
+  }
+
+  footer h1 {
+    font-size: .8em;
+  }
+
+  footer small {
+    font-size: .7em;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  /* Header */
+  header {
+    width: 60vw;
+  }
+
+  header h1 {
+    font-size: 5em;
+  }
+
+  /* About Section */
+  #about {
+    width: 30vw;
+  }
+
+  /* Services */
+  .service p {
+    font-size: .9em;
+  }
+
+  /* Contact Section */
+  #contact input {
+    width: 25vw;
+  }
+
+  textarea {
+    width: 25vw;
+  }
+
+  /* Footer */
+  footer h1 {
+    font-size: 1.2em;
+  }
+
+  footer small {
+    font-size: 1em;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  /* IE10+ specific styles go here */
+  #contact-info {
+    justify-content: space-around;
+  }
+
+  #services {
+    justify-content: space-around;
+  }
+
+  #contact-info .ie11-fix {
+    padding-bottom: 3.5em;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  /* Microsoft Edge specific styles go here */
+  #contact-info {
+    justify-content: space-around;
+  }
+
+  #services {
+    justify-content: space-around;
+  }
+
+  #contact-info .ie11-fix {
+    padding-bottom: 3.5em;
+  }
+}
