@@ -56,29 +56,29 @@ As SASS/SCSS variables:
 ```css
 /* Branded variable names
  ---------------------------------------- */
-$bento-pink: #D54159;     /* a vibrant pink attention getter */
-$bento-dark: #021828;     /* a dark blue/black */
-$bento-green: #66B959;    /* a green accent */
-$bento-blue: #2AA9B2;     /* a blue accent */
-$bento-gray: #F1F3F4;     /* near white */
-$bento-charcoal: #333;    /* charcoal for text */
+$bento-pink:      #D54159;  /* #D54159 a vibrant pink attention getter */
+$bento-dark:      #021828;  /* #021828 a dark blue/black */
+$bento-green:     #66B959;  /* #66B959 a green accent */
+$bento-blue:      #2AA9B2;  /* #2AA9B2 a blue accent */
+$bento-gray:      #F1F3F4;  /* #F1F3F4 near white */
+$bento-charcoal:  #333;     /* #333 charcoal for text */
 
-$bento-sans-serif: 'Comfortaa', cursive;  /* a rounded sans-serif, we may want specific fallbacks */
-$bento-serif: 'Lora', serif;              /* a serif that complements rounded sans-serifs well */
+$bento-sans-serif:  'Comfortaa', cursive;  /* a rounded sans-serif, we may want specific fallbacks */
+$bento-serif:       'Lora', serif;         /* a serif that complements rounded sans-serifs well */
 
 
 /* Assigned to context
  ---------------------------------------- */
-$font-headings: $bento-font;
-$font-content: $bento-serif
+$font-headings: $bento-sans-serif;
+$font-content: $bento-serif;
 
-$font-color: bento-charcoal;
+$font-color: $bento-charcoal;
 
-body: {
+body {
   font-family: $bento-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: $bento-sans-serif;  /* TODO: decide colors */
+  font-family: $bento-sans-serif;  /* TODO: decide which color(s) */
 }
 ```
