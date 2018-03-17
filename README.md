@@ -70,15 +70,16 @@ $bento-serif:       'Lora', serif;         /* a serif that complements rounded s
 /* Assigned to context
  ---------------------------------------- */
 $font-headings: $bento-sans-serif;
-$font-content: $bento-serif;
+$font-content:  $bento-serif;
 
-$font-color: $bento-charcoal;
+$font-color:    $bento-charcoal;
 
 body {
-  font-family: $bento-serif;
+  font-family:  $bento-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: $bento-sans-serif;  /* TODO: decide which color(s) */
+  font-family:  $bento-sans-serif;  /* TODO: decide which color(s) */
 }
+
 ```
