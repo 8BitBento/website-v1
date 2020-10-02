@@ -1,6 +1,6 @@
 # 8BitBento V1 Static HTML
 
-The first version of our website in static HTML.  Branches for various implementations.
+<h4>The first version of our website in static HTML.</h4>  Branches for various implementations.
 
 # Running commands
 
@@ -83,3 +83,4 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 ```
+<p>Thanku for visiting us</p>
